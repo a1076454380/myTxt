@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="UTF-8">
+		<title>回复</title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="topbar">
+				<div class="topbar-back">
+					<span class="mui-action-back mui-icon mui-icon mui-icon-arrowleft"></span>
+				</div>
+				<div class="topbar-text">
+					回复
+				</div>
+				<div class="topbar-next">
+					举报楼主
+				</div>
+			</div>
+			<div class="content revert txt-circle message">
+				<div class="lists">
+					<div class="list">
+						<div class="list-img">
+							<img src="img/advertising.jpg" />
+						</div>
+						<div class="list-main">
+							<div class="list-title">
+								<div class="list-name">
+									未来520
+								</div>
+								<div class="list-time">
+									1秒前
+								</div>
+							</div>
+							<div class="list-text">
+							 Phasellus id augue a elit ullamcorper iaculis non nec purus. Sed et erat laoreet, faucibus dui eu, bibendum mi. Curabitur vel urna ut neque sagittis eleifend.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="revert-hr">
+					<div class="hr">
+						------------------------------------
+					</div>
+					<div class="hr-num">
+						共1条回复
+					</div>
+					<div class="hr">
+						------------------------------------
+					</div>
+				</div>
+				<div class="rating-form">
+					<textarea name="">
+						
+					</textarea>
+					<input type="submit" name="" id="" value="回复" />
+				</div>
+				<div class="list-ratins">
+					<div class="rating-detail">
+						未来520:写的不错
+					</div>
+					<div class="rating-detail">
+						朱海青6回复未来520:我也觉得不错
+					</div>
+					<div class="rating-detail">
+						海城:文笔很好
+					</div>
+					<div class="rating-detail">
+						未来520回复海城:构思也不错
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+	<script type="text/javascript">
+		mui.init()
+		mui('.author-collect	').on('tap', '.collect-list', function() {
+			mytap('authorMessage.html')
+		})
+	</script>
+
+</html>
